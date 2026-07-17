@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://buberlo.github.io/orbit12/sitemap.xml

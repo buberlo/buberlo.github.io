@@ -2,38 +2,305 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Orbit12 help, support, and privacy information.">
-  <title>Orbit12 Support</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Orbit12 turns one guided walk around an object into a six-second, twelve-frame looping video—privately, entirely on your iPhone.">
+  <meta name="theme-color" content="#08080c">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://buberlo.github.io/orbit12/">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/orbit12-favicon.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Orbit12">
+  <meta property="og:title" content="Orbit12 — Walk once. Spin anything.">
+  <meta property="og:description" content="Make a tactile twelve-frame object loop with one guided walk. No turntable, account, automatic upload, analytics, or runtime AI.">
+  <meta property="og:url" content="https://buberlo.github.io/orbit12/">
+  <meta property="og:image" content="https://buberlo.github.io/orbit12/assets/orbit12-social-card.jpg">
+  <meta property="og:image:alt" content="Orbit12 name beside a luminous twelve-point orbit graphic">
+  <meta property="og:image:width" content="1731">
+  <meta property="og:image:height" content="909">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Orbit12 — Walk once. Spin anything.">
+  <meta name="twitter:description" content="Twelve angles. One guided walk. A six-second loop made entirely on your iPhone.">
+  <meta name="twitter:image" content="https://buberlo.github.io/orbit12/assets/orbit12-social-card.jpg">
+
+  <title>Orbit12 — Walk once. Spin anything.</title>
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Orbit12: Spin Anything",
+      "alternateName": "Orbit12",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "iOS",
+      "description": "An iPhone camera app that turns one guided walk around an object into a tactile twelve-frame looping video.",
+      "url": "https://buberlo.github.io/orbit12/",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+  </script>
 </head>
 <body>
-  <main>
-    <div class="mark" aria-hidden="true"></div>
-    <h1>Orbit12</h1>
-    <p class="lede">Walk once. Spin anything. Orbit12 turns twelve motion-spaced iPhone photos into a six-second square loop.</p>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <div class="card">
-      <h2>Quick help</h2>
-      <ul>
-        <li>Keep the object centered and your distance steady.</li>
-        <li>Move slowly in either direction and let each haptic tick confirm a frame.</li>
-        <li>Review or retake any angle before creating the final loop.</li>
-        <li>Use the share button to save or send the finished MP4 with the iOS share sheet.</li>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="./" aria-label="Orbit12 home">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>Orbit12</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#faq">FAQ</a>
+        <a href="#support">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span aria-hidden="true"></span> Coming soon to iPhone</p>
+        <h1 id="hero-title">Walk once.<br><em>Spin anything.</em></h1>
+        <p class="hero-lede">Orbit12 turns one guided walk around an object into a tactile, twelve-frame video loop. No turntable. No automatic upload. Just you, your subject, and your iPhone.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#how-it-works">See how it works <span aria-hidden="true">↓</span></a>
+          <a class="button button-secondary" href="mailto:kern.konrad@gmail.com?subject=Orbit12%20Launch">Get launch updates</a>
+        </div>
+        <p class="microcopy">Free at launch · Made entirely on-device</p>
+      </div>
+
+      <div class="hero-visual" role="img" aria-label="Orbit12 guided capture screen on an iPhone">
+        <div class="orbit orbit-one" aria-hidden="true"></div>
+        <div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="phone" aria-hidden="true">
+          <div class="phone-island"></div>
+          <div class="phone-screen hero-screen">
+            <img src="assets/orbit12-capture.jpg" alt="" width="660" height="1434" fetchpriority="high">
+          </div>
+        </div>
+        <div class="capture-chip capture-chip-top" aria-hidden="true">
+          <span class="capture-dot"></span>
+          <strong>12 angles</strong>
+        </div>
+        <div class="capture-chip capture-chip-bottom" aria-hidden="true">
+          <strong>100%</strong>
+          <span>on-device</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="demo section-shell" id="demo" aria-labelledby="demo-title">
+      <div class="demo-copy">
+        <p class="kicker">The complete app flow</p>
+        <h2 id="demo-title">From first frame to finished orbit.</h2>
+        <p>Start a guided walk, collect twelve motion-spaced angles, review the sequence, and render a loop—all without leaving the app.</p>
+        <ul class="demo-points" aria-label="Demo highlights">
+          <li><span>12</span> guided captures</li>
+          <li><span>1</span> local render</li>
+          <li><span>0</span> automatic uploads</li>
+        </ul>
+        <p class="demo-note">Synthetic simulator frames demonstrate the capture-to-render flow. Playback starts only when you choose it.</p>
+      </div>
+      <div class="demo-stage">
+        <div class="demo-label"><span></span> Simulator walkthrough</div>
+        <div class="demo-device">
+          <video class="demo-video" muted playsinline controls preload="metadata" poster="assets/orbit12-demo-poster.jpg" aria-label="Orbit12 Simulator walkthrough from synthetic capture to finished loop">
+            <source src="assets/orbit12-demo.mp4" type="video/mp4">
+            <a href="assets/orbit12-demo.mp4">Watch the Orbit12 app walkthrough video</a>.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof" aria-label="Orbit12 output at a glance">
+      <div class="proof-shell section-shell">
+        <div><strong>12</strong><span>motion-spaced frames</span></div>
+        <div><strong>6 sec</strong><span>finished loop</span></div>
+        <div><strong>1080²</strong><span>share-ready video</span></div>
+        <div><strong>Zero</strong><span>accounts or automatic uploads</span></div>
+      </div>
+    </section>
+
+    <section class="steps section-shell" id="how-it-works" aria-labelledby="steps-title">
+      <div class="section-heading">
+        <p class="kicker">One small walk. One satisfying loop.</p>
+        <h2 id="steps-title">Your feet are the turntable.</h2>
+        <p>Orbit12 uses your iPhone’s motion sensors to space twelve photos around your subject, then assembles them into a clean square loop.</p>
+      </div>
+
+      <ol class="step-grid">
+        <li>
+          <span class="step-number">01</span>
+          <div class="step-icon frame-icon" aria-hidden="true"></div>
+          <h3>Frame your subject</h3>
+          <p>Keep an object inside the on-screen guide and choose either direction.</p>
+        </li>
+        <li>
+          <span class="step-number">02</span>
+          <div class="step-icon walk-icon" aria-hidden="true"><span></span></div>
+          <h3>Walk and feel</h3>
+          <p>Move steadily around it. A haptic tick confirms each motion-spaced angle.</p>
+        </li>
+        <li>
+          <span class="step-number">03</span>
+          <div class="step-icon loop-icon" aria-hidden="true"></div>
+          <h3>Review and share</h3>
+          <p>Retake any frame, then create a six-second H.264 MP4 on your iPhone.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="showcase section-shell" aria-labelledby="showcase-title">
+      <div class="section-heading section-heading-compact">
+        <p class="kicker">Built around the moment</p>
+        <h2 id="showcase-title">Guidance when you need it.<br>Nothing when you don’t.</h2>
+      </div>
+
+      <div class="screen-grid">
+        <figure class="screen-card screen-card-home">
+          <div class="screen-preview screen-home">
+            <img src="assets/orbit12-home.jpg" alt="Orbit12 home screen with a button to capture a new orbit" width="660" height="1434" loading="lazy" decoding="async">
+          </div>
+          <figcaption><strong>Start simply</strong><span>One button gets the camera moving.</span></figcaption>
+        </figure>
+        <figure class="screen-card screen-card-featured">
+          <div class="screen-preview screen-review">
+            <img src="assets/orbit12-review.jpg" alt="Orbit12 review screen showing twelve captured angles" width="660" height="1434" loading="lazy" decoding="async">
+          </div>
+          <figcaption><strong>Keep the good angles</strong><span>Inspect all twelve and retake only what needs another pass.</span></figcaption>
+        </figure>
+        <figure class="screen-card screen-card-library">
+          <div class="screen-preview screen-library">
+            <img src="assets/orbit12-library.jpg" alt="Orbit12 local project library" width="660" height="1434" loading="lazy" decoding="async">
+          </div>
+          <figcaption><strong>Find every orbit</strong><span>Your finished projects stay in a private local library.</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="feature-band">
+      <div class="section-shell feature-grid">
+        <article>
+          <span class="feature-glyph" aria-hidden="true">↻</span>
+          <h3>Move, don’t tap</h3>
+          <p>Motion-spaced capture lets you focus on a smooth path instead of counting shots.</p>
+        </article>
+        <article>
+          <span class="feature-glyph" aria-hidden="true">12</span>
+          <h3>Fix one angle</h3>
+          <p>Review the sequence and retake an individual frame without starting over.</p>
+        </article>
+        <article>
+          <span class="feature-glyph" aria-hidden="true">▣</span>
+          <h3>Made to share</h3>
+          <p>Export a silent, six-second, 1080 × 1080 H.264 MP4 using the system share sheet.</p>
+        </article>
+        <article>
+          <span class="feature-glyph feature-glyph-lock" aria-hidden="true"></span>
+          <h3>Local by default</h3>
+          <p>No cloud queue, account setup, analytics SDK, ads, or runtime artificial intelligence.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="privacy-section section-shell" id="privacy" aria-labelledby="privacy-title">
+      <div class="privacy-art" aria-hidden="true">
+        <div class="privacy-orbit">
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+          <div class="privacy-lock"></div>
+        </div>
+      </div>
+      <div class="privacy-copy">
+        <p class="kicker">Private by design</p>
+        <h2 id="privacy-title">No automatic uploads.</h2>
+        <p>Raw frames, motion readings, rendering, and project storage stay local. Orbit12 has no developer-operated upload service, account, backend, advertising, analytics, tracking, or runtime AI.</p>
+        <ul class="check-list">
+          <li>Only a finished MP4 goes to the share destination you choose</li>
+          <li>Apple device backups follow your system settings</li>
+          <li>Delete a project whenever you want</li>
+        </ul>
+        <a class="text-link" href="privacy/">Read the full privacy policy <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="use-cases section-shell" aria-labelledby="use-title">
+      <div class="section-heading section-heading-compact">
+        <p class="kicker">Anything worth seeing from every side</p>
+        <h2 id="use-title">Small objects. Big character.</h2>
+      </div>
+      <ul class="object-cloud" aria-label="Ideas for your first orbit">
+        <li>Shoes</li>
+        <li>Ceramics</li>
+        <li>Toys</li>
+        <li>Crafts</li>
+        <li>Collectibles</li>
+        <li>Product concepts</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="card">
-      <h2>Your projects</h2>
-      <p>Projects live only inside Orbit12 on your iPhone. Delete an orbit from its project card, or remove the app to erase all Orbit12 projects. Orbit12 has no account or cloud restore.</p>
-    </div>
+    <section class="faq section-shell" id="faq" aria-labelledby="faq-title">
+      <div class="section-heading section-heading-compact">
+        <p class="kicker">The practical bits</p>
+        <h2 id="faq-title">Frequently asked questions</h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Do I need a turntable or other equipment?<span aria-hidden="true"></span></summary>
+          <p>No. Place your subject somewhere with room to walk around it and use the guide to keep your distance and framing steady.</p>
+        </details>
+        <details>
+          <summary>Does Orbit12 upload my photos?<span aria-hidden="true"></span></summary>
+          <p>Not automatically. Raw frames, motion readings, rendering, and project storage stay local. A finished MP4 leaves Orbit12 only when you select a destination in Apple’s system share sheet. Apple device backups are controlled separately by your system settings.</p>
+        </details>
+        <details>
+          <summary>What does Orbit12 create?<span aria-hidden="true"></span></summary>
+          <p>A silent, six-second, 1080 × 1080 H.264 MP4 assembled from twelve evenly spaced photos.</p>
+        </details>
+        <details>
+          <summary>Can I fix a missed frame?<span aria-hidden="true"></span></summary>
+          <p>Yes. Review every angle and retake any individual frame before creating the final loop.</p>
+        </details>
+        <details>
+          <summary>Can deleted projects be recovered?<span aria-hidden="true"></span></summary>
+          <p>Orbit12 has no server or account-based restore. Deleting a project removes its active local files; any prior Apple device backup is governed by your system backup settings.</p>
+        </details>
+      </div>
+    </section>
 
-    <div class="actions">
-      <a class="button" href="privacy/">Privacy Policy</a>
-      <a class="button" href="mailto:kern.konrad@gmail.com?subject=Orbit12%20Support">Email support</a>
-    </div>
-
-    <footer>Orbit12 support · © 2026 Konrad Kern</footer>
+    <section class="support section-shell" id="support" aria-labelledby="support-title">
+      <div>
+        <p class="kicker">Questions, feedback, press</p>
+        <h2 id="support-title">Let’s talk Orbit12.</h2>
+        <p>Need help, want launch news, or writing about the app? Send a note and you’ll reach the person building it.</p>
+      </div>
+      <div class="support-actions">
+        <a class="button button-primary" href="mailto:kern.konrad@gmail.com?subject=Orbit12%20Support">Email support <span aria-hidden="true">↗</span></a>
+        <a class="button button-secondary" href="assets/orbit12-press-kit.zip" download>Download press kit</a>
+        <a class="button button-secondary" href="privacy/">Privacy policy</a>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-shell">
+      <a class="brand" href="./" aria-label="Orbit12 home">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>Orbit12</span>
+      </a>
+      <p>Walk once. Spin anything.</p>
+      <div class="footer-links">
+        <a href="assets/orbit12-press-kit.zip" download>Press kit</a>
+        <a href="privacy/">Privacy</a>
+        <a href="mailto:kern.konrad@gmail.com?subject=Orbit12%20Support">Support</a>
+      </div>
+      <small>© 2026 Konrad Kern</small>
+    </div>
+  </footer>
 </body>
 </html>
