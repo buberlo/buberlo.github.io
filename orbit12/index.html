@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Orbit12 turns one guided walk around an object into a six-second, twelve-frame looping video—privately, entirely on your iPhone.">
+  <meta name="description" content="Orbit12 makes fluid six-second object loops on iPhone, plus interactive USDZ scans on supported LiDAR-equipped models—all locally.">
   <meta name="theme-color" content="#08080c">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://buberlo.github.io/orbit12/">
@@ -12,7 +12,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Orbit12">
   <meta property="og:title" content="Orbit12 — Walk once. Spin anything.">
-  <meta property="og:description" content="Make a tactile twelve-frame object loop with one guided walk. No turntable, account, automatic upload, analytics, or runtime AI.">
+  <meta property="og:description" content="Make a fluid object loop with one guided walk, or create a local USDZ on a supported LiDAR-equipped iPhone.">
   <meta property="og:url" content="https://buberlo.github.io/orbit12/">
   <meta property="og:image" content="https://buberlo.github.io/orbit12/assets/orbit12-social-card.jpg">
   <meta property="og:image:alt" content="Orbit12 name beside a luminous twelve-point orbit graphic">
@@ -20,7 +20,7 @@
   <meta property="og:image:height" content="909">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Orbit12 — Walk once. Spin anything.">
-  <meta name="twitter:description" content="Twelve angles. One guided walk. A six-second loop made entirely on your iPhone.">
+  <meta name="twitter:description" content="Fluid six-second object loops, plus optional local 3D on supported LiDAR-equipped iPhones.">
   <meta name="twitter:image" content="https://buberlo.github.io/orbit12/assets/orbit12-social-card.jpg">
 
   <title>Orbit12 — Walk once. Spin anything.</title>
@@ -33,7 +33,7 @@
       "alternateName": "Orbit12",
       "applicationCategory": "MultimediaApplication",
       "operatingSystem": "iOS",
-      "description": "An iPhone camera app that turns one guided walk around an object into a tactile twelve-frame looping video.",
+      "description": "An iPhone camera app for fluid object loops and, on supported LiDAR-equipped models, local USDZ scans.",
       "url": "https://buberlo.github.io/orbit12/",
       "offers": {
         "@type": "Offer",
@@ -66,7 +66,7 @@
       <div class="hero-copy">
         <p class="eyebrow"><span aria-hidden="true"></span> Coming soon to iPhone</p>
         <h1 id="hero-title">Walk once.<br><em>Spin anything.</em></h1>
-        <p class="hero-lede">Orbit12 turns one guided walk around an object into a tactile, twelve-frame video loop. No turntable. No automatic upload. Just you, your subject, and your iPhone.</p>
+        <p class="hero-lede">Orbit12 turns one continuous walk into a fluid six-second product loop. On a supported LiDAR-equipped iPhone, it can also create an interactive USDZ. No turntable. No automatic upload.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#how-it-works">See how it works <span aria-hidden="true">↓</span></a>
           <a class="button button-secondary" href="mailto:kern.konrad@gmail.com?subject=Orbit12%20Launch">Get launch updates</a>
@@ -85,7 +85,7 @@
         </div>
         <div class="capture-chip capture-chip-top" aria-hidden="true">
           <span class="capture-dot"></span>
-          <strong>12 angles</strong>
+          <strong>30 fps</strong>
         </div>
         <div class="capture-chip capture-chip-bottom" aria-hidden="true">
           <strong>100%</strong>
@@ -97,19 +97,19 @@
     <section class="demo section-shell" id="demo" aria-labelledby="demo-title">
       <div class="demo-copy">
         <p class="kicker">The complete app flow</p>
-        <h2 id="demo-title">From first frame to finished orbit.</h2>
-        <p>Start a guided walk, collect twelve motion-spaced angles, review the sequence, and render a loop—all without leaving the app.</p>
+        <h2 id="demo-title">The original flow, still preserved.</h2>
+        <p>This Simulator walkthrough shows Orbit12’s legacy twelve-frame capture flow. Those saved projects remain reviewable while new Quick Orbits use continuous video.</p>
         <ul class="demo-points" aria-label="Demo highlights">
-          <li><span>12</span> guided captures</li>
+          <li><span>12</span> legacy keyframes</li>
           <li><span>1</span> local render</li>
           <li><span>0</span> automatic uploads</li>
         </ul>
-        <p class="demo-note">Synthetic simulator frames demonstrate the capture-to-render flow. Playback starts only when you choose it.</p>
+        <p class="demo-note">Legacy Simulator walkthrough with deterministic synthetic frames. It does not demonstrate continuous physical-camera capture or LiDAR 3D scanning.</p>
       </div>
       <div class="demo-stage">
-        <div class="demo-label"><span></span> Simulator walkthrough</div>
+        <div class="demo-label"><span></span> Legacy Simulator walkthrough</div>
         <div class="demo-device">
-          <video class="demo-video" muted playsinline controls preload="metadata" poster="assets/orbit12-demo-poster.jpg" aria-label="Orbit12 Simulator walkthrough from synthetic capture to finished loop">
+          <video class="demo-video" muted playsinline controls preload="metadata" poster="assets/orbit12-demo-poster.jpg" aria-label="Legacy Orbit12 Simulator walkthrough using synthetic frames">
             <source src="assets/orbit12-demo.mp4" type="video/mp4">
             <a href="assets/orbit12-demo.mp4">Watch the Orbit12 app walkthrough video</a>.
           </video>
@@ -119,38 +119,38 @@
 
     <section class="proof" aria-label="Orbit12 output at a glance">
       <div class="proof-shell section-shell">
-        <div><strong>12</strong><span>motion-spaced frames</span></div>
+        <div><strong>30 fps</strong><span>fluid Quick Orbit</span></div>
         <div><strong>6 sec</strong><span>finished loop</span></div>
-        <div><strong>1080²</strong><span>share-ready video</span></div>
+        <div><strong>USDZ</strong><span>on supported LiDAR iPhones</span></div>
         <div><strong>Zero</strong><span>accounts or automatic uploads</span></div>
       </div>
     </section>
 
     <section class="steps section-shell" id="how-it-works" aria-labelledby="steps-title">
       <div class="section-heading">
-        <p class="kicker">One small walk. One satisfying loop.</p>
+        <p class="kicker">Two local workflows. One simple movement.</p>
         <h2 id="steps-title">Your feet are the turntable.</h2>
-        <p>Orbit12 uses your iPhone’s motion sensors to space twelve photos around your subject, then assembles them into a clean square loop.</p>
+        <p>Choose fluid Quick Orbit on any supported iPhone, or 3D Scan when a LiDAR-equipped iPhone reports Apple Object Capture support.</p>
       </div>
 
       <ol class="step-grid">
         <li>
           <span class="step-number">01</span>
           <div class="step-icon frame-icon" aria-hidden="true"></div>
-          <h3>Frame your subject</h3>
-          <p>Keep an object inside the on-screen guide and choose either direction.</p>
+          <h3>Choose your result</h3>
+          <p>Pick a fluid MP4 loop, or an interactive USDZ when supported LiDAR hardware is available.</p>
         </li>
         <li>
           <span class="step-number">02</span>
           <div class="step-icon walk-icon" aria-hidden="true"><span></span></div>
-          <h3>Walk and feel</h3>
-          <p>Move steadily around it. A haptic tick confirms each motion-spaced angle.</p>
+          <h3>Walk once</h3>
+          <p>Quick Orbit records continuously while device motion follows your progress around the subject.</p>
         </li>
         <li>
           <span class="step-number">03</span>
           <div class="step-icon loop-icon" aria-hidden="true"></div>
-          <h3>Review and share</h3>
-          <p>Retake any frame, then create a six-second H.264 MP4 on your iPhone.</p>
+          <h3>Process locally</h3>
+          <p>Create a six-second, 1080-square, 30 fps H.264 loop—or reconstruct a USDZ on supported hardware.</p>
         </li>
       </ol>
     </section>
@@ -170,9 +170,9 @@
         </figure>
         <figure class="screen-card screen-card-featured">
           <div class="screen-preview screen-review">
-            <img src="assets/orbit12-review.jpg" alt="Orbit12 review screen showing twelve captured angles" width="660" height="1434" loading="lazy" decoding="async">
+            <img src="assets/orbit12-review.jpg" alt="Orbit12 legacy project review screen showing saved angles" width="660" height="1434" loading="lazy" decoding="async">
           </div>
-          <figcaption><strong>Keep the good angles</strong><span>Inspect all twelve and retake only what needs another pass.</span></figcaption>
+          <figcaption><strong>Keep your history</strong><span>Existing legacy twelve-frame projects remain available to review.</span></figcaption>
         </figure>
         <figure class="screen-card screen-card-library">
           <div class="screen-preview screen-library">
@@ -187,18 +187,18 @@
       <div class="section-shell feature-grid">
         <article>
           <span class="feature-glyph" aria-hidden="true">↻</span>
-          <h3>Move, don’t tap</h3>
-          <p>Motion-spaced capture lets you focus on a smooth path instead of counting shots.</p>
+          <h3>Record continuously</h3>
+          <p>Quick Orbit follows one complete walk, then retimes it into a fluid six-second video.</p>
         </article>
         <article>
           <span class="feature-glyph" aria-hidden="true">12</span>
-          <h3>Fix one angle</h3>
-          <p>Review the sequence and retake an individual frame without starting over.</p>
+          <h3>Inspect twelve angles</h3>
+          <p>Twelve extracted keyframes provide useful thumbnails while the finished video stays smooth at 30 fps.</p>
         </article>
         <article>
-          <span class="feature-glyph" aria-hidden="true">▣</span>
-          <h3>Made to share</h3>
-          <p>Export a silent, six-second, 1080 × 1080 H.264 MP4 using the system share sheet.</p>
+          <span class="feature-glyph" aria-hidden="true">◇</span>
+          <h3>Optional local 3D</h3>
+          <p>Supported LiDAR-equipped iPhones can use Apple Object Capture to create an interactive USDZ.</p>
         </article>
         <article>
           <span class="feature-glyph feature-glyph-lock" aria-hidden="true"></span>
@@ -219,9 +219,9 @@
       <div class="privacy-copy">
         <p class="kicker">Private by design</p>
         <h2 id="privacy-title">No automatic uploads.</h2>
-        <p>Raw frames, motion readings, rendering, and project storage stay local. Orbit12 has no developer-operated upload service, account, backend, advertising, analytics, tracking, or runtime AI.</p>
+        <p>Video, motion data, scan images, rendering, reconstruction, and project storage stay local. Orbit12 has no developer-operated upload service, account, backend, advertising, analytics, tracking, third-party SDK, or runtime AI.</p>
         <ul class="check-list">
-          <li>Only a finished MP4 goes to the share destination you choose</li>
+          <li>Only an MP4 or USDZ you select goes to the share destination you choose</li>
           <li>Apple device backups follow your system settings</li>
           <li>Delete a project whenever you want</li>
         </ul>
@@ -255,16 +255,20 @@
           <p>No. Place your subject somewhere with room to walk around it and use the guide to keep your distance and framing steady.</p>
         </details>
         <details>
-          <summary>Does Orbit12 upload my photos?<span aria-hidden="true"></span></summary>
-          <p>Not automatically. Raw frames, motion readings, rendering, and project storage stay local. A finished MP4 leaves Orbit12 only when you select a destination in Apple’s system share sheet. Apple device backups are controlled separately by your system settings.</p>
+          <summary>Does Orbit12 upload my photos or video?<span aria-hidden="true"></span></summary>
+          <p>No automatic upload occurs. Video, motion data, scan images, processing, and project storage stay local. An MP4 or USDZ leaves Orbit12 only when you select a destination in Apple’s system share sheet. Apple device backups are controlled separately by your system settings.</p>
         </details>
         <details>
-          <summary>What does Orbit12 create?<span aria-hidden="true"></span></summary>
-          <p>A silent, six-second, 1080 × 1080 H.264 MP4 assembled from twelve evenly spaced photos.</p>
+          <summary>What does Quick Orbit create?<span aria-hidden="true"></span></summary>
+          <p>A silent, six-second, 1080 × 1080 H.264 MP4 at 30 fps. Twelve extracted keyframes are saved as review thumbnails, not used as the video frame rate.</p>
         </details>
         <details>
-          <summary>Can I fix a missed frame?<span aria-hidden="true"></span></summary>
-          <p>Yes. Review every angle and retake any individual frame before creating the final loop.</p>
+          <summary>Can my iPhone create a 3D model?<span aria-hidden="true"></span></summary>
+          <p>Only when Apple Object Capture and on-device photogrammetry report support on a LiDAR-equipped iPhone. Standard non-LiDAR models such as iPhone 16 keep Quick Orbit but cannot start 3D Scan.</p>
+        </details>
+        <details>
+          <summary>What happens to my older Orbit12 projects?<span aria-hidden="true"></span></summary>
+          <p>Existing legacy twelve-frame projects remain in the local library and can still be reopened and reviewed.</p>
         </details>
         <details>
           <summary>Can deleted projects be recovered?<span aria-hidden="true"></span></summary>
